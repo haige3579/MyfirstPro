@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="hobby">
+        <item>游泳</item>
+        <item>登山</item>
+        <item>嫖娼</item>
+        <item>赌博</item>
+    </string-array>
+</resources>

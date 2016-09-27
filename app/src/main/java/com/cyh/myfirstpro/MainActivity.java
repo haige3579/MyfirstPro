@@ -3,9 +3,12 @@ package com.cyh.myfirstpro;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,7 +33,14 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-//    为操作按钮添加相应事件
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.main_activity_actions,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    //    为操作按钮添加相应事件
     public boolean onOptionsItemSelected(MenuItem item) {
        switch (item.getItemId()){
            case R.id.action_search:
@@ -45,8 +55,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void openSettings() {
+        Toast.makeText(this,"微微一笑很倾城",Toast.LENGTH_SHORT).show();
     }
 
     private void openSearch() {
+        Toast.makeText(this,"Friends are lost by calling often and calling seldom",Toast.LENGTH_SHORT).show();
     }
 }

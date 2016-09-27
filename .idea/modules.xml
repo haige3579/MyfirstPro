@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyfirstPro.iml" filepath="$PROJECT_DIR$/MyfirstPro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activitystudy/activitystudy.iml" filepath="$PROJECT_DIR$/activitystudy/activitystudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/alertdialogtool/alertdialogtool.iml" filepath="$PROJECT_DIR$/alertdialogtool/alertdialogtool.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

@@ -1,1 +1,1 @@
-include ':app', ':alertdialogtool'
+include ':app', ':alertdialogtool', ':activitystudy'
